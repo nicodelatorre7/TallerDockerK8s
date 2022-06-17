@@ -14,6 +14,11 @@ EXPOSE 8080
 ENTRYPOINT ["java", "-jar", "passwordapi.jar"]
 ```
 
+Buildeo:
+```
+docker build -t pwdapi . 
+```
+
 Ejecuto:
 ```
 docker run -p 8080:8080 pwdapi
